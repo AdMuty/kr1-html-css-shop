@@ -1,0 +1,11 @@
+*   [33mbd23653[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Merge pull request #2 from AdMuty/feature/html-css-start-page
+[31m|[m[32m\[m  
+[31m|[m * [33m356ad5c[m[33m ([m[1;31morigin/feature/html-css-start-page[m[33m, [m[1;32mfeature/html-css-start-page[m[33m)[m feat: add semantic HTML structure and base CSS styles
+[31m|[m[31m/[m  
+* [33m86146ee[m docs: add GitHub Pages link
+*   [33mb87a29a[m Merge pull request #1 from AdMuty/feature/start-page
+[33m|[m[34m\[m  
+[33m|[m * [33mfa4cc5c[m[33m ([m[1;31morigin/feature/start-page[m[33m, [m[1;32mfeature/start-page[m[33m)[m feat: add project description section
+[33m|[m[33m/[m  
+* [33mb9d6cc8[m docs: add project status to README
+* [33mf82e069[m feat: initialize frontend project structure
