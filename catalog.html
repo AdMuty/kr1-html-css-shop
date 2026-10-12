@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Каталог товаров учебного интернет-магазина.">
-    <title>Каталог товаров – Учебный интернет-магазин</title>
+    <title>Каталог товаров – TURIST bezgranits</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
 
     <!-- ==================== ШАПКА ==================== -->
     <header class="site-header">
         <div class="site-header__inner">
-            <a class="site-header__logo" href="index.html">ShopProject</a>
+            <a class="site-header__logo" href="index.html">TURIST bezgranits</a>
 
             <nav class="site-nav" aria-label="Основная навигация">
                 <ul class="site-nav__list">
@@ -31,7 +32,7 @@
                         <a class="site-nav__link" href="index.html#advantages">Преимущества</a>
                     </li>
                     <li class="site-nav__item">
-                        <a class="site-nav__link" href="index.html#popular">Популярные товары</a>
+                        <a class="site-nav__link" href="index.html#popular">Популярные туры</a>
                     </li>
                     <li class="site-nav__item">
                         <a class="site-nav__link" href="index.html#contacts">Обратная связь</a>
@@ -61,7 +62,7 @@
 
                         <label class="filters-form__label">
                             <input class="filters-form__checkbox" type="checkbox" name="category" value="all">
-                            Все товары
+                            Все туры
                         </label>
 
                         <label class="filters-form__label">
@@ -105,29 +106,103 @@
             </aside>
 
             <section class="catalog-products">
-                <h2 class="catalog-products__title">Список товаров</h2>
+                <h2 class="catalog-products__title">Список туров</h2>
 
                 <div class="products-grid">
 
                     <article class="product-card">
-                        <h3 class="product-card__title">Товар 1</h3>
-                        <p class="product-card__description">Краткое описание учебного товара.</p>
-                        <p class="product-card__price">Цена: 1000 руб.</p>
-                        <a class="button button--primary" href="index.html#popular">Подробнее</a>
+                        <img class="product-card__image" src="images/usa.jpg" alt="Тур в Вашингтон">
+                        <h3 class="product-card__title">Вашингтон</h3>
+                        <p class="product-card__description">5 дней, отель 4★, завтраки.</p>
+                        <p class="product-card__price">от 500 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
                     </article>
 
                     <article class="product-card">
-                        <h3 class="product-card__title">Товар 2</h3>
-                        <p class="product-card__description">Краткое описание учебного товара.</p>
-                        <p class="product-card__price">Цена: 1500 руб.</p>
-                        <a class="button button--primary" href="index.html#popular">Подробнее</a>
+                        <img class="product-card__image" src="images/paris.jpg" alt="Тур в Париж">
+                        <h3 class="product-card__title">Париж</h3>
+                        <p class="product-card__description">7 дней, отель 3★, завтраки.</p>
+                        <p class="product-card__price">от 200 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
                     </article>
 
                     <article class="product-card">
-                        <h3 class="product-card__title">Товар 3</h3>
-                        <p class="product-card__description">Краткое описание учебного товара.</p>
-                        <p class="product-card__price">Цена: 2000 руб.</p>
-                        <a class="button button--primary" href="index.html#popular">Подробнее</a>
+                        <img class="product-card__image" src="images/pyongyang.jpg" alt="Тур в Пхеньян">
+                        <h3 class="product-card__title">Пхеньян</h3>
+                        <p class="product-card__description">4 дня, отель 4★, полный пансион.</p>
+                        <p class="product-card__price">от 120 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
+                    </article>
+
+                    <article class="product-card">
+                        <img class="product-card__image" src="images/turkie.jpg" alt="Тур в Стамбул">
+                        <h3 class="product-card__title">Стамбул</h3>
+                        <p class="product-card__description">5 дней, отель 4★, завтраки.</p>
+                        <p class="product-card__price">от 45 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
+                    </article>
+
+                    <!-- 5. Бали -->
+                    <article class="product-card">
+                        <img class="product-card__image" src="images/bali.jpg" alt="Тур на Бали">
+                        <h3 class="product-card__title">Бали</h3>
+                        <p class="product-card__description">10 дней, вилла, завтраки.</p>
+                        <p class="product-card__price">от 120 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
+                    </article>
+
+                    <!-- 6. Египет -->
+                    <article class="product-card">
+                        <img class="product-card__image" src="images/egypt.jpg" alt="Тур в Египет">
+                        <h3 class="product-card__title">Египет</h3>
+                        <p class="product-card__description">8 дней, отель 5★, всё включено.</p>
+                        <p class="product-card__price">от 65 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
+                    </article>
+
+                    <!-- 7. Токио -->
+                    <article class="product-card">
+                        <img class="product-card__image" src="images/japan.jpg" alt="Тур в Токио">
+                        <h3 class="product-card__title">Токио</h3>
+                        <p class="product-card__description">9 дней, отель 4★, завтраки.</p>
+                        <p class="product-card__price">от 145 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
+                    </article>
+
+                    <!-- 8. Марокко -->
+                    <article class="product-card">
+                        <img class="product-card__image" src="images/marocco.jpg" alt="Тур в Марокко">
+                        <h3 class="product-card__title">Марокко</h3>
+                        <p class="product-card__description">7 дней, риад, завтраки.</p>
+                        <p class="product-card__price">от 88 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
+                    </article>
+
+                    <!-- 9. Мальдивы -->
+                    <article class="product-card">
+                        <img class="product-card__image" src="images/maldivi.jpg" alt="Тур на Мальдивы">
+                        <h3 class="product-card__title">Мальдивы</h3>
+                        <p class="product-card__description">8 дней, водная вилла, всё включено.</p>
+                        <p class="product-card__price">от 220 000 ₽</p>
+                        <a class="button button--primary product-card__button" href="product.html">
+                            Подробнее
+                        </a>
                     </article>
 
                 </div>
@@ -139,9 +214,9 @@
 
     <!-- ==================== ПОДВАЛ ==================== -->
     <footer class="site-footer">
-        <p class="site-footer__text">&copy; 2026 Учебный проект. Все права защищены.</p>
+        <p class="site-footer__text">&copy; 2026 Учебный проект. Все права защищены. DISIGN BY ANDREW TRUSHKOV EFBO-04-25.</p>
         <p class="site-footer__text">Дисциплина: Фронтенд и бэкенд разработка</p>
     </footer>
-
+    <a class="scroll-top" href="#" aria-label="Наверх">↑</a>
 </body>
 </html>
